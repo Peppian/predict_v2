@@ -10,7 +10,7 @@ from prompt import generate_price_explanation_prompt
 MODEL_PATH = "model/xgb_price_predictor.joblib"
 COLUMNS_PATH = "model/xgb_model_columns.joblib"
 DATA_PATH = "model/train_dataset.csv"
-REFERENCE_PATH = "predict_v2/model/validate_dataset.csv"
+REFERENCE_PATH = "model/validate_dataset.csv"
 
 model = joblib.load(MODEL_PATH)
 columns_meta = joblib.load(COLUMNS_PATH)
