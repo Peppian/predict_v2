@@ -112,7 +112,7 @@ if st.button("🔍 Estimasi Harga"):
 
         if not ref_row.empty:
             low_price = ref_row['low_price'].values[0]
-            mid_price = ref_row['mid_price'].values[0]
+            mid_price = ref_row['avg_price'].values[0]
 
             # Koreksi harga
             if estimated_price > mid_price:
