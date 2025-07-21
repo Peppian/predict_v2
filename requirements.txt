@@ -10,3 +10,4 @@ wordcloud
 requests
 openai
 httpx
+cloudpickle
